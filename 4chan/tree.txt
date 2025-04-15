@@ -1,0 +1,424 @@
+inverze@betterkept:~/4chanleak# tree -Rfs
+[       4096]  .
+├── [     710661]  ./a8z45n.7z
+├── [     130707]  ./admin.php
+├── [     131951]  ./admin-test.php
+├── [      12354]  ./auth.php
+├── [      11879]  ./auth-test.php
+├── [          0]  ./block_resync_removed
+├── [        253]  ./boardlist.txt
+├── [      28030]  ./captcha.php
+├── [      29075]  ./captcha-test.php
+├── [      18064]  ./catalog.php
+├── [      18064]  ./catalog-test.php
+├── [       4051]  ./clippy.html
+├── [       4096]  ./config
+│   ├── [       4096]  ./config/ads
+│   │   ├── [       6478]  ./config/ads/adblock.txt
+│   │   ├── [         26]  ./config/ads/nws.bottom.txt
+│   │   ├── [         26]  ./config/ads/nws.middle.txt
+│   │   ├── [         26]  ./config/ads/nws.top.txt
+│   │   ├── [         26]  ./config/ads/ws.bottom.txt
+│   │   ├── [         26]  ./config/ads/ws.middle.txt
+│   │   └── [         26]  ./config/ads/ws.top.txt
+│   ├── [       4096]  ./config/boards
+│   │   ├── [        523]  ./config/boards/3.config.ini
+│   │   ├── [       1092]  ./config/boards/aco.config.ini
+│   │   ├── [       1310]  ./config/boards/a.config.ini
+│   │   ├── [       1017]  ./config/boards/adv.config.ini
+│   │   ├── [        572]  ./config/boards/an.config.ini
+│   │   ├── [        666]  ./config/boards/asp.config.ini
+│   │   ├── [       2318]  ./config/boards/bant.config.ini
+│   │   ├── [       2599]  ./config/boards/b.config.ini
+│   │   ├── [        928]  ./config/boards/biz.config.ini
+│   │   ├── [        547]  ./config/boards/c.config.ini
+│   │   ├── [        646]  ./config/boards/cgl.config.ini
+│   │   ├── [        740]  ./config/boards/ck.config.ini
+│   │   ├── [        719]  ./config/boards/cm.config.ini
+│   │   ├── [       1054]  ./config/boards/co.config.ini
+│   │   ├── [        877]  ./config/boards/d.config.ini
+│   │   ├── [        602]  ./config/boards/diy.config.ini
+│   │   ├── [        916]  ./config/boards/e.config.ini
+│   │   ├── [        596]  ./config/boards/fa.config.ini
+│   │   ├── [       1643]  ./config/boards/f.config.ini
+│   │   ├── [        678]  ./config/boards/fit.config.ini
+│   │   ├── [       1102]  ./config/boards/g.config.ini
+│   │   ├── [       1027]  ./config/boards/gd.config.ini
+│   │   ├── [       1488]  ./config/boards/gif.config.ini
+│   │   ├── [        999]  ./config/boards/hc.config.ini
+│   │   ├── [        927]  ./config/boards/h.config.ini
+│   │   ├── [       1021]  ./config/boards/his.config.ini
+│   │   ├── [       1092]  ./config/boards/hm.config.ini
+│   │   ├── [       1167]  ./config/boards/hr.config.ini
+│   │   ├── [        844]  ./config/boards/ic.config.ini
+│   │   ├── [       1155]  ./config/boards/i.config.ini
+│   │   ├── [        928]  ./config/boards/int.config.ini
+│   │   ├── [       3227]  ./config/boards/j.config.ini
+│   │   ├── [       1966]  ./config/boards/jp.config.ini
+│   │   ├── [        775]  ./config/boards/k.config.ini
+│   │   ├── [        961]  ./config/boards/lgbt.config.ini
+│   │   ├── [        776]  ./config/boards/lit.config.ini
+│   │   ├── [        632]  ./config/boards/m.config.ini
+│   │   ├── [       1126]  ./config/boards/mlp.config.ini
+│   │   ├── [        564]  ./config/boards/mu.config.ini
+│   │   ├── [        592]  ./config/boards/n.config.ini
+│   │   ├── [       1221]  ./config/boards/news.config.ini
+│   │   ├── [        543]  ./config/boards/o.config.ini
+│   │   ├── [       1202]  ./config/boards/out.config.ini
+│   │   ├── [        748]  ./config/boards/p.config.ini
+│   │   ├── [        962]  ./config/boards/po.config.ini
+│   │   ├── [       3187]  ./config/boards/pol.config.ini
+│   │   ├── [        615]  ./config/boards/pw.config.ini
+│   │   ├── [        901]  ./config/boards/qa.config.ini
+│   │   ├── [        448]  ./config/boards/qb.config.ini
+│   │   ├── [       2223]  ./config/boards/qst.config.ini
+│   │   ├── [       1101]  ./config/boards/r9k.config.ini
+│   │   ├── [       1002]  ./config/boards/r.config.ini
+│   │   ├── [       2426]  ./config/boards/s4s.config.ini
+│   │   ├── [       1103]  ./config/boards/sci.config.ini
+│   │   ├── [       1034]  ./config/boards/s.config.ini
+│   │   ├── [       1479]  ./config/boards/soc.config.ini
+│   │   ├── [       1141]  ./config/boards/sp.config.ini
+│   │   ├── [        688]  ./config/boards/t.config.ini
+│   │   ├── [       4150]  ./config/boards/test.config.ini
+│   │   ├── [       1468]  ./config/boards/tg.config.ini
+│   │   ├── [        601]  ./config/boards/toy.config.ini
+│   │   ├── [       1094]  ./config/boards/trash.config.ini
+│   │   ├── [        986]  ./config/boards/trv.config.ini
+│   │   ├── [       1126]  ./config/boards/tv.config.ini
+│   │   ├── [        956]  ./config/boards/u.config.ini
+│   │   ├── [       1733]  ./config/boards/v.config.ini
+│   │   ├── [       1729]  ./config/boards/vg.config.ini
+│   │   ├── [       1094]  ./config/boards/vip.config.ini
+│   │   ├── [       1130]  ./config/boards/vm.config.ini
+│   │   ├── [       1179]  ./config/boards/vmg.config.ini
+│   │   ├── [        842]  ./config/boards/vp.config.ini
+│   │   ├── [        942]  ./config/boards/vr.config.ini
+│   │   ├── [       1175]  ./config/boards/vrpg.config.ini
+│   │   ├── [       1126]  ./config/boards/vst.config.ini
+│   │   ├── [       1381]  ./config/boards/vt.config.ini
+│   │   ├── [       1021]  ./config/boards/w.config.ini
+│   │   ├── [       1258]  ./config/boards/wg.config.ini
+│   │   ├── [       1413]  ./config/boards/wsg.config.ini
+│   │   ├── [        682]  ./config/boards/wsr.config.ini
+│   │   ├── [        610]  ./config/boards/x.config.ini
+│   │   ├── [        599]  ./config/boards/xs.config.ini
+│   │   └── [        932]  ./config/boards/y.config.ini
+│   ├── [          0]  ./config/captcha_config.ini
+│   ├── [       4096]  ./config/categories
+│   │   ├── [       3525]  ./config/categories/nws.config.ini
+│   │   └── [       3244]  ./config/categories/ws.config.ini
+│   ├── [          0]  ./config/cloudflare_config.ini
+│   ├── [          0]  ./config/config_db.php
+│   ├── [      18535]  ./config/global_config.ini
+│   └── [      15259]  ./config/global_strings.ini
+├── [       4096]  ./css
+│   ├── [      26936]  ./css/0ch.css
+│   ├── [       4209]  ./css/burichan.css
+│   ├── [      25674]  ./css/burichannew.css
+│   ├── [      25108]  ./css/catalog_0ch.css
+│   ├── [      27257]  ./css/catalog_burichan_new.css
+│   ├── [      27482]  ./css/catalog_futaba_new.css
+│   ├── [       7492]  ./css/catalog_mobile.css
+│   ├── [      27510]  ./css/catalog_photon.css
+│   ├── [      30832]  ./css/catalog_spooky2017.css
+│   ├── [      30624]  ./css/catalog_spooky.css
+│   ├── [      27725]  ./css/catalog_tomorrow.css
+│   ├── [      28098]  ./css/catalog_yotsuba_b_new.css
+│   ├── [      28015]  ./css/catalog_yotsuba_new.css
+│   ├── [      12465]  ./css/flags.css
+│   ├── [       4221]  ./css/futaba.css
+│   ├── [      25698]  ./css/futabanew.css
+│   ├── [      18600]  ./css/janichan.css
+│   ├── [       7895]  ./css/md2016.css
+│   ├── [      26348]  ./css/photon.css
+│   ├── [      29160]  ./css/spooky2017.css
+│   ├── [      30356]  ./css/spooky.css
+│   ├── [      16096]  ./css/tegaki.css
+│   ├── [      16028]  ./css/tegaki-test.css
+│   ├── [      26908]  ./css/tomorrow.css
+│   ├── [       5777]  ./css/yotsuba.css
+│   ├── [      16311]  ./css/yotsubamobile.css
+│   ├── [      28528]  ./css/yotsubanew.css
+│   ├── [       5804]  ./css/yotsublue.css
+│   ├── [      16247]  ./css/yotsubluemobile.css
+│   └── [      26854]  ./css/yotsubluenew.css
+├── [       1082]  ./derefer.php
+├── [      17950]  ./emotes_xa22.php
+├── [       1017]  ./footer-test.txt
+├── [        853]  ./footer.txt
+├── [        865]  ./footer-ws.txt
+├── [       4096]  ./forms
+│   ├── [      11333]  ./forms/ban.php
+│   ├── [       6428]  ./forms/report.php
+│   └── [       6432]  ./forms/report-test.php
+├── [          0]  ./globalmsg.txt
+├── [       5045]  ./header-sys.txt
+├── [       4996]  ./header-test.txt
+├── [       4343]  ./header.txt
+├── [       5317]  ./header-ws.txt
+├── [     286134]  ./imgboard.php
+├── [     286628]  ./imgboard-test.php
+├── [       4096]  ./imgtop
+│   └── [      11182]  ./imgtop/banned_dev.js
+├── [       4096]  ./js
+│   ├── [      94411]  ./js/catalog.js
+│   ├── [      52356]  ./js/catalog.min.js
+│   ├── [      55505]  ./js/catalog.min.map
+│   ├── [      94411]  ./js/catalog-test.js
+│   ├── [      61956]  ./js/core.js
+│   ├── [      40526]  ./js/core.min.js
+│   ├── [      24440]  ./js/core.min.map
+│   ├── [      61370]  ./js/core-test.js
+│   ├── [     271610]  ./js/extension.js
+│   ├── [     181941]  ./js/extension.min.js
+│   ├── [     145223]  ./js/extension.min.map
+│   ├── [     271610]  ./js/extension-test.js
+│   ├── [     216054]  ./js/extension-test-sync2.js
+│   ├── [      21800]  ./js/janitor.js
+│   ├── [      30495]  ./js/janitor-unminified.js
+│   ├── [       1616]  ./js/minify.rb
+│   ├── [      40120]  ./js/mod.js
+│   ├── [      55306]  ./js/mod-unminified.js
+│   ├── [      17680]  ./js/tcaptcha.js
+│   ├── [      11579]  ./js/tcaptcha.min.js
+│   ├── [     110615]  ./js/tegaki.min.js
+│   └── [     192137]  ./js/tegaki-test.js
+├── [      15878]  ./json.php
+├── [      15995]  ./json-test.php
+├── [        207]  ./latest.php
+├── [       4096]  ./lib
+│   ├── [      17228]  ./lib/admin.php
+│   ├── [      17474]  ./lib/admin-test.php
+│   ├── [       3662]  ./lib/ads.php
+│   ├── [       3877]  ./lib/ads-test.php
+│   ├── [       3939]  ./lib/archives.php
+│   ├── [      15219]  ./lib/auth.php
+│   ├── [      15219]  ./lib/auth-test.php
+│   ├── [       3214]  ./lib/board_flags_lgbt.php
+│   ├── [       2789]  ./lib/board_flags_mlp.php
+│   ├── [       1787]  ./lib/board_flags_pol.php
+│   ├── [        560]  ./lib/board_flags_test.php
+│   ├── [      16425]  ./lib/captcha.php
+│   ├── [      16425]  ./lib/captcha-test.php
+│   ├── [       6706]  ./lib/db_pdo.php
+│   ├── [       8154]  ./lib/db.php
+│   ├── [       2828]  ./lib/geoip2.php
+│   ├── [       2828]  ./lib/geoip2-test.php
+│   ├── [        192]  ./lib/global_constants.php
+│   ├── [       6372]  ./lib/GoogleAuthenticator.php
+│   ├── [       4096]  ./lib/htmlpurifier
+│   │   ├── [     677353]  ./lib/htmlpurifier/HTMLPurifier.standalone.php
+│   │   └── [       4096]  ./lib/htmlpurifier/standalone
+│   │       └── [       4096]  ./lib/htmlpurifier/standalone/HTMLPurifier
+│   │           ├── [       4096]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema
+│   │           │   ├── [       4096]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/Builder
+│   │           │   │   ├── [       1277]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/Builder/ConfigSchema.php
+│   │           │   │   └── [       4372]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/Builder/Xml.php
+│   │           │   ├── [        162]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/Exception.php
+│   │           │   ├── [       4096]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/Interchange
+│   │           │   │   ├── [       1969]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/Interchange/Directive.php
+│   │           │   │   └── [       1073]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/Interchange/Id.php
+│   │           │   ├── [       7115]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/InterchangeBuilder.php
+│   │           │   ├── [       1282]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/Interchange.php
+│   │           │   ├── [       4096]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema
+│   │           │   │   ├── [        222]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Attr.AllowedClasses.txt
+│   │           │   │   ├── [        578]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Attr.AllowedFrameTargets.txt
+│   │           │   │   ├── [        288]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Attr.AllowedRel.txt
+│   │           │   │   ├── [        255]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Attr.AllowedRev.txt
+│   │           │   │   ├── [        926]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Attr.ClassUseCDATA.txt
+│   │           │   │   ├── [        479]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Attr.DefaultImageAlt.txt
+│   │           │   │   ├── [        301]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Attr.DefaultInvalidImageAlt.txt
+│   │           │   │   ├── [        320]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Attr.DefaultInvalidImage.txt
+│   │           │   │   ├── [        294]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Attr.DefaultTextDir.txt
+│   │           │   │   ├── [        645]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Attr.EnableID.txt
+│   │           │   │   ├── [        262]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Attr.ForbiddenClasses.txt
+│   │           │   │   ├── [        317]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Attr.IDBlacklistRegexp.txt
+│   │           │   │   ├── [        123]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Attr.IDBlacklist.txt
+│   │           │   │   ├── [        660]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Attr.IDPrefixLocal.txt
+│   │           │   │   ├── [        475]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Attr.IDPrefix.txt
+│   │           │   │   ├── [       1138]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/AutoFormat.AutoParagraph.txt
+│   │           │   │   ├── [        301]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/AutoFormat.Custom.txt
+│   │           │   │   ├── [        317]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/AutoFormat.DisplayLinkURI.txt
+│   │           │   │   ├── [        267]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/AutoFormat.Linkify.txt
+│   │           │   │   ├── [        326]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/AutoFormat.PurifierLinkify.DocURL.txt
+│   │           │   │   ├── [        308]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/AutoFormat.PurifierLinkify.txt
+│   │           │   │   ├── [        364]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/AutoFormat.RemoveEmpty.RemoveNbsp.Exceptions.txt
+│   │           │   │   ├── [        449]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/AutoFormat.RemoveEmpty.RemoveNbsp.txt
+│   │           │   │   ├── [       1774]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/AutoFormat.RemoveEmpty.txt
+│   │           │   │   ├── [        295]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/AutoFormat.RemoveSpansWithoutAttributes.txt
+│   │           │   │   ├── [        374]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Cache.DefinitionImpl.txt
+│   │           │   │   ├── [        330]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Cache.SerializerPath.txt
+│   │           │   │   ├── [        254]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Cache.SerializerPermissions.txt
+│   │           │   │   ├── [        662]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.AggressivelyFixLt.txt
+│   │           │   │   ├── [        575]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.AllowHostnameUnderscore.txt
+│   │           │   │   ├── [        433]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.CollectErrors.txt
+│   │           │   │   ├── [        700]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.ColorKeywords.txt
+│   │           │   │   ├── [        433]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.ConvertDocumentToFragment.txt
+│   │           │   │   ├── [        632]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.DirectLexLineNumberSyncInterval.txt
+│   │           │   │   ├── [        458]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.DisableExcludes.txt
+│   │           │   │   ├── [        303]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.EnableIDNA.txt
+│   │           │   │   ├── [        767]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.Encoding.txt
+│   │           │   │   ├── [        503]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.EscapeInvalidChildren.txt
+│   │           │   │   ├── [        202]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.EscapeInvalidTags.txt
+│   │           │   │   ├── [        567]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.EscapeNonASCIICharacters.txt
+│   │           │   │   ├── [        575]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.HiddenElements.txt
+│   │           │   │   ├── [        292]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.Language.txt
+│   │           │   │   ├── [       1044]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.LexerImpl.txt
+│   │           │   │   ├── [        556]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.MaintainLineNumbers.txt
+│   │           │   │   ├── [        279]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.NormalizeNewlines.txt
+│   │           │   │   ├── [        334]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.RemoveInvalidImg.txt
+│   │           │   │   ├── [        398]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.RemoveProcessingInstructions.txt
+│   │           │   │   ├── [        280]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Core.RemoveScriptContents.txt
+│   │           │   │   ├── [        351]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/CSS.AllowedFonts.txt
+│   │           │   │   ├── [        608]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/CSS.AllowedProperties.txt
+│   │           │   │   ├── [        236]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/CSS.AllowImportant.txt
+│   │           │   │   ├── [        461]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/CSS.AllowTricky.txt
+│   │           │   │   ├── [        196]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/CSS.DefinitionRev.txt
+│   │           │   │   ├── [        463]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/CSS.ForbiddenProperties.txt
+│   │           │   │   ├── [        623]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/CSS.MaxImgLength.txt
+│   │           │   │   ├── [        164]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/CSS.Proprietary.txt
+│   │           │   │   ├── [        251]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/CSS.Trusted.txt
+│   │           │   │   ├── [        307]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Filter.Custom.txt
+│   │           │   │   ├── [        485]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Filter.ExtractStyleBlocks.Escaping.txt
+│   │           │   │   ├── [       1200]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Filter.ExtractStyleBlocks.Scope.txt
+│   │           │   │   ├── [        576]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Filter.ExtractStyleBlocks.TidyImpl.txt
+│   │           │   │   ├── [       2758]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Filter.ExtractStyleBlocks.txt
+│   │           │   │   ├── [        495]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Filter.YouTube.txt
+│   │           │   │   ├── [        607]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.AllowedAttributes.txt
+│   │           │   │   ├── [        711]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.AllowedCommentsRegexp.txt
+│   │           │   │   ├── [        367]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.AllowedComments.txt
+│   │           │   │   ├── [        882]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.AllowedElements.txt
+│   │           │   │   ├── [        726]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.AllowedModules.txt
+│   │           │   │   ├── [        996]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.Allowed.txt
+│   │           │   │   ├── [        471]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.Attr.Name.UseCDATA.txt
+│   │           │   │   ├── [        571]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.BlockWrapper.txt
+│   │           │   │   ├── [        622]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.CoreModules.txt
+│   │           │   │   ├── [        233]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.CustomDoctype.txt
+│   │           │   │   ├── [       1210]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.DefinitionID.txt
+│   │           │   │   ├── [        533]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.DefinitionRev.txt
+│   │           │   │   ├── [        473]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.Doctype.txt
+│   │           │   │   ├── [        287]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.FlashAllowFullScreen.txt
+│   │           │   │   ├── [        852]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.ForbiddenAttributes.txt
+│   │           │   │   ├── [        754]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.ForbiddenElements.txt
+│   │           │   │   ├── [        490]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.MaxImgLength.txt
+│   │           │   │   ├── [        163]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.Nofollow.txt
+│   │           │   │   ├── [        314]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.Parent.txt
+│   │           │   │   ├── [        334]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.Proprietary.txt
+│   │           │   │   ├── [        483]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.SafeEmbed.txt
+│   │           │   │   ├── [        398]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.SafeIframe.txt
+│   │           │   │   ├── [        441]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.SafeObject.txt
+│   │           │   │   ├── [        273]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.SafeScripting.txt
+│   │           │   │   ├── [        221]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.Strict.txt
+│   │           │   │   ├── [        253]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.TargetBlank.txt
+│   │           │   │   ├── [        163]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.TidyAdd.txt
+│   │           │   │   ├── [        620]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.TidyLevel.txt
+│   │           │   │   ├── [        171]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.TidyRemove.txt
+│   │           │   │   ├── [        266]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.Trusted.txt
+│   │           │   │   ├── [        235]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/HTML.XHTML.txt
+│   │           │   │   ├── [         45]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/info.ini
+│   │           │   │   ├── [        275]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Output.CommentScriptContents.txt
+│   │           │   │   ├── [        543]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Output.FixInnerHTML.txt
+│   │           │   │   ├── [        269]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Output.FlashCompat.txt
+│   │           │   │   ├── [        358]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Output.Newline.txt
+│   │           │   │   ├── [        509]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Output.SortAttr.txt
+│   │           │   │   ├── [        827]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Output.TidyFormat.txt
+│   │           │   │   ├── [        197]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/Test.ForceNoIconv.txt
+│   │           │   │   ├── [        468]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.AllowedSchemes.txt
+│   │           │   │   ├── [        654]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.Base.txt
+│   │           │   │   ├── [        245]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.DefaultScheme.txt
+│   │           │   │   ├── [        242]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.DefinitionID.txt
+│   │           │   │   ├── [        196]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.DefinitionRev.txt
+│   │           │   │   ├── [        549]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.DisableExternalResources.txt
+│   │           │   │   ├── [        443]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.DisableExternal.txt
+│   │           │   │   ├── [        427]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.DisableResources.txt
+│   │           │   │   ├── [        272]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.Disable.txt
+│   │           │   │   ├── [        310]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.HostBlacklist.txt
+│   │           │   │   ├── [        818]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.Host.txt
+│   │           │   │   ├── [        390]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.MakeAbsolute.txt
+│   │           │   │   ├── [        611]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.MungeResources.txt
+│   │           │   │   ├── [        978]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.MungeSecretKey.txt
+│   │           │   │   ├── [       2759]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.Munge.txt
+│   │           │   │   ├── [        326]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.OverrideAllowedSchemes.txt
+│   │           │   │   └── [        897]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema/URI.SafeIframeRegexp.txt
+│   │           │   ├── [      15000]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/schema.ser
+│   │           │   ├── [       2852]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/ValidatorAtom.php
+│   │           │   └── [       8367]  ./lib/htmlpurifier/standalone/HTMLPurifier/ConfigSchema/Validator.php
+│   │           ├── [       4096]  ./lib/htmlpurifier/standalone/HTMLPurifier/DefinitionCache
+│   │           │   └── [       4096]  ./lib/htmlpurifier/standalone/HTMLPurifier/DefinitionCache/Serializer
+│   │           ├── [       4096]  ./lib/htmlpurifier/standalone/HTMLPurifier/EntityLookup
+│   │           │   └── [       5311]  ./lib/htmlpurifier/standalone/HTMLPurifier/EntityLookup/entities.ser
+│   │           ├── [       4096]  ./lib/htmlpurifier/standalone/HTMLPurifier/Filter
+│   │           │   ├── [      13443]  ./lib/htmlpurifier/standalone/HTMLPurifier/Filter/ExtractStyleBlocks.php
+│   │           │   └── [       1844]  ./lib/htmlpurifier/standalone/HTMLPurifier/Filter/YouTube.php
+│   │           ├── [       4096]  ./lib/htmlpurifier/standalone/HTMLPurifier/Language
+│   │           │   ├── [       4096]  ./lib/htmlpurifier/standalone/HTMLPurifier/Language/classes
+│   │           │   │   └── [        137]  ./lib/htmlpurifier/standalone/HTMLPurifier/Language/classes/en-x-test.php
+│   │           │   └── [       4096]  ./lib/htmlpurifier/standalone/HTMLPurifier/Language/messages
+│   │           │       ├── [       4048]  ./lib/htmlpurifier/standalone/HTMLPurifier/Language/messages/en.php
+│   │           │       ├── [        229]  ./lib/htmlpurifier/standalone/HTMLPurifier/Language/messages/en-x-testmini.php
+│   │           │       └── [        171]  ./lib/htmlpurifier/standalone/HTMLPurifier/Language/messages/en-x-test.php
+│   │           ├── [       4096]  ./lib/htmlpurifier/standalone/HTMLPurifier/Lexer
+│   │           │   └── [     182607]  ./lib/htmlpurifier/standalone/HTMLPurifier/Lexer/PH5P.php
+│   │           ├── [       4096]  ./lib/htmlpurifier/standalone/HTMLPurifier/Printer
+│   │           │   ├── [        301]  ./lib/htmlpurifier/standalone/HTMLPurifier/Printer/ConfigForm.css
+│   │           │   ├── [        142]  ./lib/htmlpurifier/standalone/HTMLPurifier/Printer/ConfigForm.js
+│   │           │   ├── [      14658]  ./lib/htmlpurifier/standalone/HTMLPurifier/Printer/ConfigForm.php
+│   │           │   ├── [       1194]  ./lib/htmlpurifier/standalone/HTMLPurifier/Printer/CSSDefinition.php
+│   │           │   └── [      10491]  ./lib/htmlpurifier/standalone/HTMLPurifier/Printer/HTMLDefinition.php
+│   │           └── [       5897]  ./lib/htmlpurifier/standalone/HTMLPurifier/Printer.php
+│   ├── [       2900]  ./lib/ini.php
+│   ├── [        300]  ./lib/json.php
+│   ├── [      19857]  ./lib/like_score.php
+│   ├── [      19857]  ./lib/like_score-test.php
+│   ├── [       3619]  ./lib/oekaki.php
+│   ├── [       3618]  ./lib/oekaki-test.php
+│   ├── [      10210]  ./lib/perk_options.php
+│   ├── [      10210]  ./lib/perk_options-test.php
+│   ├── [       4077]  ./lib/phash.php
+│   ├── [      92222]  ./lib/postfilter.php
+│   ├── [      94533]  ./lib/postfilter-test.php
+│   ├── [       9766]  ./lib/rpc.php
+│   ├── [       2938]  ./lib/rss.php
+│   ├── [      25104]  ./lib/userpwd.php
+│   ├── [      25104]  ./lib/userpwd-test.php
+│   └── [      12038]  ./lib/util.php
+├── [       4096]  ./modes
+│   ├── [      17653]  ./modes/report.php
+│   └── [      22353]  ./modes/report-test.php
+├── [       4096]  ./plugins
+│   ├── [       5012]  ./plugins/broomcloset.php
+│   ├── [        852]  ./plugins/enhance_q.php
+│   ├── [       7355]  ./plugins/robot9000.php
+│   └── [        707]  ./plugins/yotsuba_plugins.php
+├── [       2419]  ./Rakefile
+├── [       3542]  ./rebuildd.php
+├── [       3542]  ./rebuildd-test.php
+├── [        531]  ./rid.php
+├── [      25587]  ./signin.php
+├── [      25226]  ./signin-test.php
+├── [       4096]  ./tasks
+│   ├── [       3712]  ./tasks/pass_mailer.php
+│   └── [       2719]  ./tasks/signin_mailer.php
+├── [       2881]  ./title_banners.txt
+├── [       4096]  ./views
+│   ├── [      22781]  ./views/imgboard.php
+│   ├── [      23480]  ./views/imgboard-test.php
+│   ├── [       2690]  ./views/pass_auth.tpl.php
+│   ├── [       5166]  ./views/signin-test.tpl.php
+│   ├── [       5166]  ./views/signin.tpl.php
+│   ├── [       1764]  ./views/syncframe.html
+│   └── [      30233]  ./views/upboard.php
+├── [       4096]  ./wordfilters
+│   ├── [       2013]  ./wordfilters/asp.php
+│   ├── [        853]  ./wordfilters/ck.php
+│   ├── [       1832]  ./wordfilters/global.php
+│   ├── [        853]  ./wordfilters/int.php
+│   ├── [       2660]  ./wordfilters/test.php
+│   ├── [       1832]  ./wordfilters/vg.php
+│   ├── [       3487]  ./wordfilters/v.php
+│   └── [       1832]  ./wordfilters/vp.php
+├── [       7806]  ./xa24tb.php
+└── [       3638]  ./yotsuba_config.php
+
+31 directories, 390 files
